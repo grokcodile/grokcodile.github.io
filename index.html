@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Grokcodile</title>
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -13,9 +13,25 @@
     <div
       class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center"
     >
-      <h1 class="font-bold text-4xl 200">GROKCODILE</h1>
-      <code>HelloWorld</code>
+      <h1 class="font-bold text-4xl" aria-label="Welcome to Grokcodile">GROKCODILE</h1>
+      <span>HelloWorld</span>
       <small><code>v.2.3</code></small>
     </div>
+
+    <noscript>
+      <style>
+        body {
+          font-family: sans-serif;
+          text-align: center;
+          margin: 0;
+          padding: 0;
+        }
+      </style>
+      <div>
+        <h1>GROKCODILE</h1>
+        <p>HelloWorld</p>
+        <small>v.2.3</small>
+      </div>
+    </noscript>
   </body>
 </html>
