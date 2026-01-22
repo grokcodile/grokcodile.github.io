@@ -95,8 +95,11 @@
         </div>
         <footer class="fixed bottom-0 left-0 w-full bg-black p-4">
             <div class="text-center text-gray-500 text-xs">
-                &copy; Grokcodile. All rights reserved.
+                &copy; <span id="year"></span> Grokcodile. All rights reserved.
             </div>
         </footer>
+        <script>
+            document.getElementById('year').textContent = new Date().getFullYear();
+        </script>
     </body>
 </html>
